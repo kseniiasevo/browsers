@@ -1,0 +1,59 @@
+	*{
+		padding: 0;
+		margin: 0;
+		font-size:24px;
+	}
+
+	li#chrome,
+	li#firefox,
+	li#opera,
+	li#safari,
+	li#yandex,
+	li#ie{
+		display: none;
+		margin-top: 50px;
+	}
+	
+	ul.icon_browser  li{
+		list-style: none;
+		margin: 15px;
+	}
+	.left{
+		float: left;
+	}
+	.right{
+		float: right;
+	}
+	
+	li#chrome span:nth-child(1){
+		color: #22a12a;
+	}
+	li#chrome span:nth-child(2){
+		color: #c90000;
+	}
+	li#chrome span:nth-child(3){
+		color: #f9d411;
+	}
+
+	li#firefox{
+		color: #f2a414;
+	}
+
+	li#opera{
+		color: #c10e0e;
+	}
+	
+	li#safari{
+		color: #646464;
+	}
+	
+	li#yandex span:nth-child(1){
+		color: #ff0000;
+	}
+	li#yandex span:nth-child(2){
+		color: #000000;
+	}
+	
+	li#ie{
+		color: #036da3;
+	}
